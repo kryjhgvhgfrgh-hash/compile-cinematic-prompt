@@ -1,0 +1,4 @@
+interface:
+  display_name: "电影提示词工具盒"
+  short_description: "把简单描述扩展成可选择可确认的高质量电影感图片提示词工具盒"
+  default_prompt: "Use $compile-cinematic-prompt 把我的简单画面描述扩展为可选择、可确认的电影级图片提示词。"
