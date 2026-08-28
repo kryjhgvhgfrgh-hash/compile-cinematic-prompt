@@ -120,3 +120,6 @@ description: Expand a simple scene idea into a precise, coherent cinematic image
 
 查看成图后，每轮只修改一个主要问题。例如：主体尺度、人物距离、色温、机位、光线或数量错误。重复所有场景不变量，避免其他部分漂移。不要重新开启完整的方向选择，除非用户明确要求换一种方向。
 
+## 内置视觉示例
+
+`assets/examples/` 保存本 Skill 的实际生成示例。仅当用户要求查看示例、比较视觉方向或说明该 Skill 的成图范围时检查或展示这些图片；不要把它们当作默认风格参考，也不要因此覆盖用户当前场景的事实与选择。

@@ -16,23 +16,23 @@
 
 ## 生成示例
 
-下面是本 Skill 在实际对话中生成的 16:9 电影感画面。完整原图位于 [`examples/generated`](./examples/generated/)；图片按生成时间排序，仅用于展示构图、光线、色彩与空间方向的变化。
+下面是本 Skill 在实际对话中生成的 16:9 电影感画面。完整原图位于 Skill 包内的 [`assets/examples`](./compile-cinematic-prompt/assets/examples/)；图片按生成时间排序，仅用于展示构图、光线、色彩与空间方向的变化。
 
 | 01 | 02 |
 |---|---|
-| ![电影感生成示例 01](./examples/generated/cinematic-example-01.png) | ![电影感生成示例 02](./examples/generated/cinematic-example-02.png) |
+| ![电影感生成示例 01](./compile-cinematic-prompt/assets/examples/cinematic-example-01.png) | ![电影感生成示例 02](./compile-cinematic-prompt/assets/examples/cinematic-example-02.png) |
 | 03 | 04 |
-| ![电影感生成示例 03](./examples/generated/cinematic-example-03.png) | ![电影感生成示例 04](./examples/generated/cinematic-example-04.png) |
+| ![电影感生成示例 03](./compile-cinematic-prompt/assets/examples/cinematic-example-03.png) | ![电影感生成示例 04](./compile-cinematic-prompt/assets/examples/cinematic-example-04.png) |
 | 05 | 06 |
-| ![电影感生成示例 05](./examples/generated/cinematic-example-05.png) | ![电影感生成示例 06](./examples/generated/cinematic-example-06.png) |
+| ![电影感生成示例 05](./compile-cinematic-prompt/assets/examples/cinematic-example-05.png) | ![电影感生成示例 06](./compile-cinematic-prompt/assets/examples/cinematic-example-06.png) |
 | 07 | 08 |
-| ![电影感生成示例 07](./examples/generated/cinematic-example-07.png) | ![电影感生成示例 08](./examples/generated/cinematic-example-08.png) |
+| ![电影感生成示例 07](./compile-cinematic-prompt/assets/examples/cinematic-example-07.png) | ![电影感生成示例 08](./compile-cinematic-prompt/assets/examples/cinematic-example-08.png) |
 | 09 | 10 |
-| ![电影感生成示例 09](./examples/generated/cinematic-example-09.png) | ![电影感生成示例 10](./examples/generated/cinematic-example-10.png) |
+| ![电影感生成示例 09](./compile-cinematic-prompt/assets/examples/cinematic-example-09.png) | ![电影感生成示例 10](./compile-cinematic-prompt/assets/examples/cinematic-example-10.png) |
 | 11 | 12 |
-| ![电影感生成示例 11](./examples/generated/cinematic-example-11.png) | ![电影感生成示例 12](./examples/generated/cinematic-example-12.png) |
+| ![电影感生成示例 11](./compile-cinematic-prompt/assets/examples/cinematic-example-11.png) | ![电影感生成示例 12](./compile-cinematic-prompt/assets/examples/cinematic-example-12.png) |
 | 13 |  |
-| ![电影感生成示例 13](./examples/generated/cinematic-example-13.png) |  |
+| ![电影感生成示例 13](./compile-cinematic-prompt/assets/examples/cinematic-example-13.png) |  |
 
 ## 安装
 
@@ -187,13 +187,13 @@ Skill 会尽量只修改对应变量，保持其他场景事实不变。
 ```text
 compile-cinematic-prompt/
 ├── README.md
-├── examples/
-│   └── generated/
-│       └── cinematic-example-01.png ... cinematic-example-13.png
 └── compile-cinematic-prompt/
     ├── SKILL.md
     ├── agents/
     │   └── openai.yaml
+    ├── assets/
+    │   └── examples/
+    │       └── cinematic-example-01.png ... cinematic-example-13.png
     └── references/
         ├── cinematic-language.md
         ├── quality-rubric.md
